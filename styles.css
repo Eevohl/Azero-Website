@@ -1,0 +1,110 @@
+/* ============================== */
+/* Global                        */
+/* ============================== */
+
+body.black-mode {
+    background: #000;
+    font-family: "Bai Jamjuree", sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+img { user-select: none; }
+
+/* ============================== */
+/* Header                        */
+/* ============================== */
+
+.header-bar {
+    background: #000;
+    border-bottom: 1px solid #151515;
+}
+
+.nav-subtitle {
+    font-weight: 300;
+    opacity: 0.85;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 300;
+}
+
+.nav-link.active {
+    background: #fff !important;
+    color: #000 !important;
+    border-radius: 0;
+}
+
+/* ============================== */
+/* Product Sections              */
+/* ============================== */
+
+.product {
+    padding: 80px 5vw;
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    max-width: 450px;
+}
+
+.product h1 {
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.product p {
+    opacity: .85;
+    margin: 15px 0 25px;
+    font-size: 1.1rem;
+}
+
+.product-img {
+    width: 200px;
+}
+
+/* Color Themes */
+.hero-aether  { background: linear-gradient(90deg, #f40606, #000); }
+.hero-zephyr  { background: linear-gradient(90deg, #d307ee, #000); }
+.hero-emerald { background: linear-gradient(90deg, #2bdc3a, #000); }
+.hero-relay   { background: linear-gradient(90deg, #fab700, #000); }
+.hero-omni    { background: linear-gradient(90deg, #0064f9, #000); }
+
+/* ============================== */
+/* Buttons                       */
+/* ============================== */
+
+.btn {
+    padding: 10px 22px;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.primary-btn {
+    background: #fff;
+    color: #000;
+}
+
+.secondary-btn {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* ============================== */
+/* Footer                        */
+/* ============================== */
+
+.footer-bar {
+    background: #000;
+    opacity: 0.7;
+}
