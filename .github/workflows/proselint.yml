@@ -1,0 +1,26 @@
+name: Proselint
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  proselint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install proselint
+        run: |
+          pip install proselint
+
+      - name: Run proselint on Markdown files
+        run: |
+          proselint **/*.md
+
