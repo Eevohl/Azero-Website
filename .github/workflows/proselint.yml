@@ -22,5 +22,5 @@ jobs:
 
       - name: Run proselint on Markdown files
         run: |
-          find . -name "*.md" -print0 | xargs -0 proselint
+          find . -name "*.md" -print0 | xargs -0 proselint check
 
